@@ -1,0 +1,5 @@
+Perico, perico, perico, verde, 2
+Pez, pez, pez, plateado, 0
+Oso, oso, oso, cafe, 4
+Panda, panda, panda, blanco con negro, 4
+Leon, leon, leon, amarillo, 4

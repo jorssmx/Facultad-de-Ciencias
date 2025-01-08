@@ -1,0 +1,12 @@
+---------------------------------------------------
+El texto es: ABCDEFGHIJKLMNÑOPQRSTUVWXYZ
+El cifrado de Cesar es: FGHIJKLMNÑOPQRSTUVWXYZABCDE
+El descifrado de Cesar es: ABCDEFGHIJKLMNÑOPQRSTUVWXYZ
+---------------------------------------------------
+El texto es: LA CASA AMARILLA
+El cifrado de Cesar es: PFEHFXFEFQFWNPPF
+El descifrado de Cesar es: LAZCASAZAMARILLA
+---------------------------------------------------
+El texto es: DUDA PARA PASARLE OTRO TEXTO AQUI MISMO O SI ES EN OTRO TXT
+El cifrado de Cesar es: IZIFEUFWFEUFXFWPJETYWTEYJCYTEFVZNEQNXQTETEXNEJXEJRETYWTEYCY
+El descifrado de Cesar es: DUDAZPARAZPASARLEZOTROZTEXTOZAQUIZMISMOZOZSIZESZENZOTROZTXT

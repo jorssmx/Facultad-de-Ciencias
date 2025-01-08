@@ -1,0 +1,23 @@
+{
+  "rational_numbers_test.py::RationalNumbersTest::test_add_opposite": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_divide_positive_by_negative": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_divide_two_negative": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_multiply_by_zero": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_multiply_negative_by_positive": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_multiply_reciprocal": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_multiply_two_negative": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_multiply_two_positive": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_raise_a_negative_rational_to_a_positive_integer_power": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_raise_a_positive_rational_to_a_positive_integer_power": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_raise_a_real_number_to_a_negative_rational": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_raise_a_real_number_to_a_positive_rational": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_raise_a_real_number_to_a_zero_rational": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_raise_zero_to_an_integer_power": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_reduce_integer": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_reduce_negative": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_reduce_one": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_reduce_positive": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_reduce_rational_with_negative_denominator": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_reduce_zero": true, 
+  "rational_numbers_test.py::RationalNumbersTest::test_subtract_from_self": true
+}

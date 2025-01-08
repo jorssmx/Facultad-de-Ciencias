@@ -1,0 +1,10 @@
+[
+  "cadenas_test.py::CadenaTest::test_busca_mayor_empate", 
+  "cadenas_test.py::CadenaTest::test_desplaza", 
+  "cadenas_test.py::CadenaTest::test_es_numero", 
+  "cadenas_test.py::CadenaTest::test_intercala", 
+  "cadenas_test.py::CadenaTest::test_mezcla", 
+  "cadenas_test.py::CadenaTest::test_palindromo1", 
+  "cadenas_test.py::CadenaTest::test_palindromo2", 
+  "cadenas_test.py::CadenaTest::test_palindromo3"
+]

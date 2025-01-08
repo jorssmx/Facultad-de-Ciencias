@@ -1,0 +1,58 @@
+#lang plai
+
+;;Función que regresa si un vagon es de otro tipo que no sea locomotora
+;;otro? : Vagon -> boolean
+(define (otro? v)
+  (type-case Vagon v
+    [vagon-locomotora (c) false]
+    [else true]))
+
+;;Definimos tipo Vagon
+(define-type Vagon
+  [vagon-simple (pasajeros number?) (capacidad number?)]
+  [vagon-locomotora (carbon number?)]
+  [vagon-restaurante (mesas number?) (meseros number?)]
+  [vagon-dormitorio (camas number?)]
+  [vagon-carga (peso number?)]
+  [vagones (siguiente otro?) (siguiente-siguiente otro?)])
+
+
+;;Definicion el tipo Tren
+(define-type Tren
+  [tren (primero vagon-locomotora?) (centro otro?) (ultimo vagon-locomotora?)])
+
+(define tre
+  (tren (vagon-locomotora 400) (vagones (vagones (vagon-carga 400)(vagones (vagon-carga 400)(vagon-carga 400)) ) (vagon-carga 400)) (vagon-locomotora 400)))
+
+;; pasajeros: Tren → number
+( define ( pasajeros t)
+   true)
+
+;; Función que regresa el peso en carbon
+;; peso-carbon: Tren → number
+( define ( peso-carbon t )
+   (type-case Tren t
+    [tren (p c u) (+ (peso p)(peso u))]))
+
+;; sin-cama: Tren → number
+( define ( sin-cama t )
+   0)
+
+
+;; Función que da el peso aproximado que carga el tren
+;; peso-aproximado : Tren → number
+( define ( peso-aproximado t )
+   (type-case Tren t
+    [tren (p c u) (+ (peso p)(peso u)(peso c))]))
+
+
+;;Función que regresa el peso que carga un vagon
+;;peso : Vagon -> number
+(define (peso v)
+  (type-case Vagon v
+    [vagon-locomotora (c) c]
+    [vagon-restaurante (m1 m2) m2]
+    [vagon-simple (p c) (* p 73)]
+    [vagon-carga (p) p]
+    [vagones (s ss) (+ (peso s) (peso ss))]
+    [else 0]))

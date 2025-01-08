@@ -1,0 +1,5 @@
+Perro, perro, perro, negro, 4
+Tigre, tigre, tigre, naranja con rayas negras, 4
+Jirafa, jirafa, jirafa, amarilla con manchas cafes, 4
+Caballo, caballo, caballo, cafe, 4
+Gato, gato, gato, gris, 4

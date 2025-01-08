@@ -1,0 +1,7 @@
+if x>= 1e-10 then {
+    if x < 3 then {
+        True 
+    }
+} else {
+    False 
+}

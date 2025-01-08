@@ -1,0 +1,6 @@
+{
+  "cadenas_test .py::CadenaTest::test_busca_mayor_empate": true, 
+  "cadenas_test .py::CadenaTest::test_busca_mayor_empate2": true, 
+  "cadenas_test .py::CadenaTest::test_mezcla": true, 
+  "cadenas_test.py::CadenaTest::test_busca_mayor_empate2": true
+}
